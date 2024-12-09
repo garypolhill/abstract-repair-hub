@@ -857,8 +857,8 @@ NetLogo 6.4.0
     <go>go</go>
     <postRun>export-view (word "sweep-d" (pop-density * 1000) "-rB" (repair-beta * 100) "-rd" (repair-d) "-bB" (break-beta * 10) "-bt" (break-t) "-sB" (skill-beta * 100) "-sd" (skill-d) "-ps" (p-skill * 100) "-run" behaviorspace-run-number ".png")</postRun>
     <timeLimit steps="10000"/>
-    <metric>n-repairs</metric>
-    <metric>n-replacements</metric>
+    <metric>n-self-repairs</metric>
+    <metric>n-new-possessions</metric>
     <metric>n-hub-repairs</metric>
     <metric>d-total</metric>
     <enumeratedValueSet variable="pop-density">
